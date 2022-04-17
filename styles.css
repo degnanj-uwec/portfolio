@@ -1,0 +1,93 @@
+header{
+    background-color: rgb(15, 87, 51);
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+}
+header>a{
+    text-decoration: none;
+    color: white;
+}
+header>a:hover{
+    color: chartreuse;
+}
+nav>a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: 900;
+    display: inline-block;
+    color: white;
+}
+nav>a:hover{
+    color: chartreuse;
+}
+main>img{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 1rem;
+}
+.indexabout{
+    padding: 1rem;
+    display: inline-block;
+    margin: .5rem;
+    font-size: 2rem;
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+}
+html{
+    background-color: rgb(137, 223, 172);
+}
+footer{
+    text-align: center;
+    background-color: rgb(24, 100, 34);
+    color: white;
+    font-size: 30px;
+}
+footer>a{
+    color: white;
+    text-decoration: none;
+}
+footer>a:hover{
+    color: chartreuse;
+}
+.images img{
+    align-content: flex-start;
+    max-width: 32%;
+    display: inline-block;
+}
+.achievements, .infoabout, .aboutabout{
+    font-family: 'Abril Fatface', cursive;
+}
+.achievements{
+    text-align: center;
+}
+.infoabout{
+    text-align: center;
+    font-size: 3rem;
+}
+.aboutabout{
+    text-align: center;
+}
+.contact{
+    text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 2rem;
+}
+.contact>a{
+    text-decoration: none;
+    color: white;
+}
+.contact>a:hover{
+    color: black;
+}
+.infoabout{
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+}
